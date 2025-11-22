@@ -1,0 +1,10 @@
+# GhostForge helper scripts — never commit these
+gh-dev-reset.bat
+gh-dev-sync.bat
+gh-dev-to-main-commit.bat
+gh-filelist.bat
+gh-set-user-RakaMaru.bat
+gh-setup-user-RakaMaru.bat
+
+# Windows thumbnail cache (just in case)
+Thumbs.db
