@@ -1,6 +1,6 @@
 ============================================================
 File list for: C:\common\Arduino\PhantomDriver-assets
-Generated on : Tue 12/02/2025 22:55:23.02
+Generated on : Tue 12/09/2025 21:04:20.39
 Script       : gh-filelist.bat
 ============================================================
 
@@ -8,12 +8,17 @@ Script       : gh-filelist.bat
 Folder PATH listing for volume OS
 Volume serial number is C2DB-DE38
 C:.
-\---images
++---dev
++---images
+\---release
 
 ------------------------------------------------------------
 [FLAT LIST: dir /s /b  (EXCLUDES .git)]
 ------------------------------------------------------------
 C:\common\Arduino\PhantomDriver-assets\.gitignore
+C:\common\Arduino\PhantomDriver-assets\deploy-ghostforge.bat
+C:\common\Arduino\PhantomDriver-assets\deploy-phantomkernel.bat
+C:\common\Arduino\PhantomDriver-assets\dev
 C:\common\Arduino\PhantomDriver-assets\filelist.txt
 C:\common\Arduino\PhantomDriver-assets\gh-dev-reset.bat
 C:\common\Arduino\PhantomDriver-assets\gh-dev-sync.bat
@@ -23,6 +28,11 @@ C:\common\Arduino\PhantomDriver-assets\gh-set-user-RakaMaru.bat
 C:\common\Arduino\PhantomDriver-assets\gh-setup-user-RakaMaru.bat
 C:\common\Arduino\PhantomDriver-assets\images
 C:\common\Arduino\PhantomDriver-assets\README.md
+C:\common\Arduino\PhantomDriver-assets\release
+C:\common\Arduino\PhantomDriver-assets\update-version-json.bat
+C:\common\Arduino\PhantomDriver-assets\version.json
+C:\common\Arduino\PhantomDriver-assets\dev\.gitkeep
+C:\common\Arduino\PhantomDriver-assets\dev\GhostForge.ino.bin
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024.jpg
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024.png
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024_Bright.jpg
@@ -59,7 +69,9 @@ C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_16x16.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_32x32.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_72x72.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_784x784.png
+C:\common\Arduino\PhantomDriver-assets\release\.gitkeep
+C:\common\Arduino\PhantomDriver-assets\release\PhantomKernel.ino.bin
 
 [TOTALS  (EXCLUDES .git)]
-Directories: 1
-Files      : 45
+Directories: 3
+Files      : 53
