@@ -1,4 +1,4 @@
 {
-  "PhantomKernel": { "version": "2025.12.11.0103", "url": "https://raw.githubusercontent.com/RakaMaru/PhantomDriver-assets/main/release/PhantomKernel.ino.bin" },
-  "GhostForge":    { "version": "2025.12.11.1227-dev", "url": "https://raw.githubusercontent.com/RakaMaru/PhantomDriver-assets/main/dev/GhostForge.ino.bin" }
+  "PhantomKernel": { "version": "2025.12.11.0106", "url": "https://raw.githubusercontent.com/RakaMaru/PhantomDriver-assets/main/release/PhantomKernel.ino.bin" },
+  "GhostForge":    { "version": "2025.12.11.0331-dev", "url": "https://raw.githubusercontent.com/RakaMaru/PhantomDriver-assets/main/dev/GhostForge.ino.bin" }
 }
