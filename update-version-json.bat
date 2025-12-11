@@ -1,41 +1,28 @@
 @echo off
 setlocal enabledelayedexpansion
 echo.
-echo === Updating version.json ===
+echo === Updating version.json from .elf timestamps ===
+echo.
 
-set ASSETS=C:\common\Arduino\PhantomDriver-assets
+set "ASSETS=C:\common\Arduino\PhantomDriver-assets"
 
-rem --- PhantomKernel ---
-if exist "%ASSETS%\release\PhantomKernel.ino.bin" (
-    for %%F in ("%ASSETS%\release\PhantomKernel.ino.bin") do (
-        set "date=%%~tF"
-        rem Extract YYYY MM DD HH MM from current time
-        for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
-        set "yyyy=!dt:~0,4!"
-        set "mm=!dt:~4,2!"
-        set "dd=!dt:~6,2!"
-        set "hh=!dt:~8,2!"
-        set "min=!dt:~10,2!"
-        set "PK_VER=!yyyy!.!mm!.!dd!.!hh!!min!"
-        set "GF_VER=!yyyy!.!mm!.!dd!.!hh!!min!-dev"
-    )
-) else set "PK_VER=1970.01.01"
+rem Default fallbacks
+set "PK_VER=1970.01.01.0000"
+set "GF_VER=1970.01.01.0000-dev"
 
-rem --- GhostForge ---
-if exist "%ASSETS%\dev\GhostForge.ino.bin" (
-    for %%F in ("%ASSETS%\dev\GhostForge.ino.bin") do (
-        set "date=%%~tF"
-        rem Extract YYYY MM DD HH MM from current time
-        for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
-        set "yyyy=!dt:~0,4!"
-        set "mm=!dt:~4,2!"
-        set "dd=!dt:~6,2!"
-        set "hh=!dt:~8,2!"
-        set "min=!dt:~10,2!"
-        set "PK_VER=!yyyy!.!mm!.!dd!.!hh!!min!"
-        set "GF_VER=!yyyy!.!mm!.!dd!.!hh!!min!-dev"
-    )
-) else set "GF_VER=1970.01.01-dev"
+rem ——— PhantomKernel (stable) ———
+set "ELF=C:\common\Arduino\PhantomDriver\Firmware\PhantomKernel\build\esp32.esp32.esp32s3\PhantomKernel.ino.elf"
+if exist "%ELF%" (
+    for %%F in ("%ELF%") do set "T=%%~tF"
+    set "PK_VER=!T:~6,4!.!T:~0,2!.!T:~3,2!.!T:~11,2!!T:~14,2!"
+)
+
+rem ——— GhostForge (dev) ———
+set "ELF=C:\common\Arduino\PhantomDriver\Labs\GhostForge\build\esp32.esp32.esp32s3\GhostForge.ino.elf"
+if exist "%ELF%" (
+    for %%F in ("%ELF%") do set "T=%%~tF"
+    set "GF_VER=!T:~6,4!.!T:~0,2!.!T:~3,2!.!T:~11,2!!T:~14,2!-dev"
+)
 
 (
 echo {
@@ -45,6 +32,8 @@ echo }
 ) > "%ASSETS%\version.json"
 
 echo version.json updated
-echo   PhantomKernel → %PK_VER%
-echo   GhostForge    → %GF_VER%
+echo   PhantomKernel -> %PK_VER%
+echo   GhostForge    -> %GF_VER%
 echo.
+
+endlocal
