@@ -1,6 +1,6 @@
 ============================================================
 File list for: C:\common\Arduino\PhantomDriver-assets
-Generated on : Wed 12/10/2025 20:05:00.47
+Generated on : Wed 12/10/2025 20:55:44.48
 Script       : gh-filelist.bat
 ============================================================
 
@@ -16,8 +16,6 @@ C:.
 [FLAT LIST: dir /s /b  (EXCLUDES .git)]
 ------------------------------------------------------------
 C:\common\Arduino\PhantomDriver-assets\.gitignore
-C:\common\Arduino\PhantomDriver-assets\2025.12.10.0659-dev
-C:\common\Arduino\PhantomDriver-assets\2025.12.10.0706
 C:\common\Arduino\PhantomDriver-assets\deploy-ghostforge.bat
 C:\common\Arduino\PhantomDriver-assets\deploy-phantomkernel.bat
 C:\common\Arduino\PhantomDriver-assets\dev
@@ -76,4 +74,4 @@ C:\common\Arduino\PhantomDriver-assets\release\PhantomKernel.ino.bin
 
 [TOTALS  (EXCLUDES .git)]
 Directories: 3
-Files      : 55
+Files      : 53
