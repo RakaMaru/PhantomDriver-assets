@@ -31,21 +31,9 @@ echo }
 ) > "%ASSETS%\version.json"
 
 echo version.json updated
-echo   PhantomKernel -> %PK_VER%
-echo   GhostForge    -> %GF_VER%
-
-rem Clean up any leftover placeholder files
-for %%X in (
-    "1970.01.01.0000"
-    "1970.01.01.0000-dev"
-    "2025.12.10.*"
-) do (
-    if exist "%ASSETS%\%%~X" (
-        del "%ASSETS%\%%~X" >nul 2>&1
-        echo Cleaned up old file: %%~X
-    )
-)
+echo   PhantomKernel: %PK_VER%
+echo   GhostForge: %GF_VER%
 
 echo.
-echo All done - repo stays clean!
+echo All done - version.json updated and repo stays clean!
 echo.
