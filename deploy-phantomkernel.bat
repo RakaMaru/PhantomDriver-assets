@@ -1,3 +1,4 @@
+rem this is deploy-phantomkernel.bat
 @echo off
 echo.
 echo === Deploying PhantomKernel (stable) ===

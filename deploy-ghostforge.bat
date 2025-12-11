@@ -1,3 +1,4 @@
+rem this is deploy-ghostforge.bat
 @echo off
 echo.
 echo === Deploying GhostForge (dev) ===
