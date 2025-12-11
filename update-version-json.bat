@@ -1,3 +1,4 @@
+rem this is update-version-json.bat
 @echo off
 setlocal enabledelayedexpansion
 echo.
