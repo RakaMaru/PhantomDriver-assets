@@ -45,4 +45,4 @@ echo   GhostForge:    %GF_VER%
 echo.
 echo All done - now uses true 24-hour timestamps via PowerShell (no regional issues)!
 echo.
-pause
+rem pause

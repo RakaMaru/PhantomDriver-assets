@@ -18,4 +18,4 @@ echo Copied → dev\GhostForge.ino.bin
 call "%~dp0update-version-json.bat"
 echo.
 echo GhostForge deployed successfully!
-pause
+rem pause
