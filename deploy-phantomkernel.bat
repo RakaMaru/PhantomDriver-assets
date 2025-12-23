@@ -18,4 +18,4 @@ echo Copied → release\PhantomKernel.ino.bin
 call "%~dp0update-version-json.bat"
 echo.
 echo PhantomKernel deployed successfully!
-pause
+rem pause
