@@ -1,12 +1,12 @@
 ============================================================
 File list for: C:\common\Arduino\PhantomDriver-assets
-Generated on : Wed 12/24/2025  3:36:58.97
+Generated on : Sat 08/22/2026 23:02:26.19
 Script       : gh-filelist.bat
 ============================================================
 
 [TREE /A]
 Folder PATH listing for volume OS
-Volume serial number is C2DB-DE38
+Volume serial number is 00000098 C2DB:DE38
 C:.
 +---dev
 +---images
@@ -16,6 +16,7 @@ C:.
 [FLAT LIST: dir /s /b  (EXCLUDES .git)]
 ------------------------------------------------------------
 C:\common\Arduino\PhantomDriver-assets\.gitignore
+C:\common\Arduino\PhantomDriver-assets\AGENTS.md
 C:\common\Arduino\PhantomDriver-assets\deploy-ghostforge.bat
 C:\common\Arduino\PhantomDriver-assets\deploy-phantomkernel.bat
 C:\common\Arduino\PhantomDriver-assets\dev
@@ -74,4 +75,4 @@ C:\common\Arduino\PhantomDriver-assets\release\PhantomKernel.ino.bin
 
 [TOTALS  (EXCLUDES .git)]
 Directories: 3
-Files      : 53
+Files      : 54
