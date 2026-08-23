@@ -1,39 +1,35 @@
 ============================================================
 File list for: C:\common\Arduino\PhantomDriver-assets
-Generated on : Sat 08/22/2026 23:02:26.19
+Generated on : 2026-08-22 23:14:38
 Script       : gh-filelist.bat
 ============================================================
 
-[TREE /A]
-Folder PATH listing for volume OS
-Volume serial number is 00000098 C2DB:DE38
-C:.
+[TREE]
+(excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)
+C:\common\Arduino\PhantomDriver-assets
 +---dev
 +---images
-\---release
++---release
+\---scripts
 
 ------------------------------------------------------------
-[FLAT LIST: dir /s /b  (EXCLUDES .git)]
+[FLAT LIST  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
 ------------------------------------------------------------
 C:\common\Arduino\PhantomDriver-assets\.gitignore
 C:\common\Arduino\PhantomDriver-assets\AGENTS.md
 C:\common\Arduino\PhantomDriver-assets\deploy-ghostforge.bat
 C:\common\Arduino\PhantomDriver-assets\deploy-phantomkernel.bat
 C:\common\Arduino\PhantomDriver-assets\dev
+C:\common\Arduino\PhantomDriver-assets\dev\.gitkeep
+C:\common\Arduino\PhantomDriver-assets\dev\GhostForge.ino.bin
 C:\common\Arduino\PhantomDriver-assets\filelist.txt
 C:\common\Arduino\PhantomDriver-assets\gh-dev-reset.bat
 C:\common\Arduino\PhantomDriver-assets\gh-dev-sync.bat
 C:\common\Arduino\PhantomDriver-assets\gh-dev-to-main-commit.bat
 C:\common\Arduino\PhantomDriver-assets\gh-filelist.bat
-C:\common\Arduino\PhantomDriver-assets\gh-set-user-RakaMaru.bat
 C:\common\Arduino\PhantomDriver-assets\gh-setup-user-RakaMaru.bat
+C:\common\Arduino\PhantomDriver-assets\gh-set-user-RakaMaru.bat
 C:\common\Arduino\PhantomDriver-assets\images
-C:\common\Arduino\PhantomDriver-assets\README.md
-C:\common\Arduino\PhantomDriver-assets\release
-C:\common\Arduino\PhantomDriver-assets\update-version-json.bat
-C:\common\Arduino\PhantomDriver-assets\version.json
-C:\common\Arduino\PhantomDriver-assets\dev\.gitkeep
-C:\common\Arduino\PhantomDriver-assets\dev\GhostForge.ino.bin
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024.jpg
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024.png
 C:\common\Arduino\PhantomDriver-assets\images\PhantomDriver_1024x1024_Bright.jpg
@@ -52,12 +48,12 @@ C:\common\Arduino\PhantomDriver-assets\images\Trim_Normal_16x16.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Normal_32x32.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Normal_72x72.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Normal_784x784.png
+C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocke_32x32.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocket_112x112.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocket_160x160.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocket_16x16.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocket_72x72.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocket_784x784.png
-C:\common\Arduino\PhantomDriver-assets\images\Trim_Rocke_32x32.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Snail_112x112.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Snail_160x160.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Snail_16x16.jpg
@@ -70,9 +66,15 @@ C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_16x16.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_32x32.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_72x72.jpg
 C:\common\Arduino\PhantomDriver-assets\images\Trim_Turtle_784x784.png
+C:\common\Arduino\PhantomDriver-assets\README.md
+C:\common\Arduino\PhantomDriver-assets\release
 C:\common\Arduino\PhantomDriver-assets\release\.gitkeep
 C:\common\Arduino\PhantomDriver-assets\release\PhantomKernel.ino.bin
+C:\common\Arduino\PhantomDriver-assets\scripts
+C:\common\Arduino\PhantomDriver-assets\scripts\write-filelist.ps1
+C:\common\Arduino\PhantomDriver-assets\update-version-json.bat
+C:\common\Arduino\PhantomDriver-assets\version.json
 
-[TOTALS  (EXCLUDES .git)]
-Directories: 3
-Files      : 54
+[TOTALS  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
+Directories: 4
+Files      : 55
