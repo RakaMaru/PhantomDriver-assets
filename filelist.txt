@@ -1,6 +1,6 @@
 ============================================================
 File list for: C:\common\Arduino\PhantomDriver-assets
-Generated on : 2026-08-22 23:14:38
+Generated on : 2026-08-23 10:47:33
 Script       : gh-filelist.bat
 ============================================================
 
@@ -10,7 +10,9 @@ C:\common\Arduino\PhantomDriver-assets
 +---dev
 +---images
 +---release
-\---scripts
++---scripts
+\---skills
+    \---decision-table
 
 ------------------------------------------------------------
 [FLAT LIST  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
@@ -72,9 +74,12 @@ C:\common\Arduino\PhantomDriver-assets\release\.gitkeep
 C:\common\Arduino\PhantomDriver-assets\release\PhantomKernel.ino.bin
 C:\common\Arduino\PhantomDriver-assets\scripts
 C:\common\Arduino\PhantomDriver-assets\scripts\write-filelist.ps1
+C:\common\Arduino\PhantomDriver-assets\skills
+C:\common\Arduino\PhantomDriver-assets\skills\decision-table
+C:\common\Arduino\PhantomDriver-assets\skills\decision-table\SKILL.md
 C:\common\Arduino\PhantomDriver-assets\update-version-json.bat
 C:\common\Arduino\PhantomDriver-assets\version.json
 
 [TOTALS  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
-Directories: 4
-Files      : 55
+Directories: 6
+Files      : 56
